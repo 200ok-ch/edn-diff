@@ -1,5 +1,0 @@
-{:paths ["."]
- :deps {lambdaisland/deep-diff2 {:mvn/version "0.8.42"}
-        io.github.200ok-ch/shell-smith
-        {:git/sha "1ae2822a55d493774c48df25c9d00aaab251beec"}}
- :bbin/bin {edn-diff {:main-opts ["-m" "edn-diff"]}}}
