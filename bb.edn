@@ -1,0 +1,2 @@
+{:deps [(or (System/getenv "BABASHKA_DEPS") "deps.edn")]
+ :bbin/bin {edn-diff {:main-opts ["-m" "edn-diff"]}}}
