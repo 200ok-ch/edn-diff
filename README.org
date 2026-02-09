@@ -1,1 +1,27 @@
-bbin install io.github.200ok-ch/edn-diff
+* edn-diff
+
+A git-aware edn-file differ for both - human and artificial agents
+
+** Usage
+
+   Install via bbin:
+
+   =bbin install io.github.200ok-ch/edn-diff=
+
+   Compare an EDN file with the master branch:
+
+   =edn-diff config.edn=
+
+   Compare with a specific branch:
+
+   =edn-diff -b develop config.edn=
+
+** Options
+
+#+begin_example
+   -b, --branch=<branch>    Branch to compare with [default: master]
+   -a, --added-only         Show only added items
+   -r, --removed-only       Show only removed items
+   -e, --edn-output         Output in EDN format for scripting
+   -h, --help               Show help message
+#+end_example
